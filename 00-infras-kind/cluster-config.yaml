@@ -3,7 +3,7 @@ apiVersion: kind.x-k8s.io/v1alpha4
 name: mycluster
 networking:
   apiServerPort: 6443
-  disableDefaultCNI: true
+  #disableDefaultCNI: true
   podSubnet: 172.16.254.0/16
 nodes:
 - role: control-plane
